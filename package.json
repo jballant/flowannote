@@ -1,0 +1,22 @@
+{
+  "name": "flowannote",
+  "version": "0.0.0",
+  "description": "Add and remove @flow annotations to/from your javascript files",
+  "main": "index.js",
+  "keywords": [
+    "flow",
+    "flowtype",
+    "annotations"
+  ],
+  "repository" : {
+    "type" : "git",
+    "url" : "https://github.com/jballant/flowannote"
+  },
+  "bin": { "flowannote" : "./bin/cli.js" },
+  "author": "James Ballantine",
+  "license": "MIT",
+  "dependencies": {
+    "findit": "^2.0.0",
+    "minimist": "^1.1.0"
+  }
+}
